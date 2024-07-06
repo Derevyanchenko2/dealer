@@ -1,0 +1,14 @@
+.slider-arrow {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+    background-color: #797979;
+    border-radius: 50px;
+    img {
+        width: 10px;
+    }
+}

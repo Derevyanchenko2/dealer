@@ -1,0 +1,35 @@
+.sell-box{
+    background-image: url('../images/home/sell-img/background-1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 13px;
+}
+.sell-content{
+    padding-top: 46px;
+    padding-bottom: 24px;
+    padding-left: 43px;
+}
+.sell-content__title,.sell-content__text{
+    color: #3e3e3e;
+}
+.sell-content__title{
+    margin-bottom: 15px;
+    font-family: $font-family-secondary;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 54px;
+}
+.sell-content__text{
+    margin-bottom: 40px;
+    font-family: $font-family-primary;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+}
+.sell-btn{  
+    background: $primary-color;
+    padding: 20px 40px;
+    border-radius: 13px;
+    color: $secondary-color;
+}

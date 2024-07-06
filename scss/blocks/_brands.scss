@@ -1,0 +1,39 @@
+.brands-heading {
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.brands-title {
+    margin-bottom: 13px;
+}
+
+.brands-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.brands-card {
+    position: relative;
+    border-radius: 13px;
+}
+
+
+.brands-card__title {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    max-width: 125px;
+    font-family: $font-family-secondary;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: $secondary-color;
+}
+
+.brands-card__title--top {
+    top: 30px;
+    left: 27px;
+}

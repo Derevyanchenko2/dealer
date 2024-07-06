@@ -1,0 +1,79 @@
+.featured-varieties {
+    margin-bottom: 40px;
+}
+
+.varieties-wrapper {
+    margin-top: 20px;
+}
+
+.variety-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.variety-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+@media (max-width: 768px) {
+    .variety-column {
+        flex: 0 0 100%;
+    }
+}
+
+.variety-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.variety-image {
+    width: 100%;
+    height: auto;
+}
+.variety-subtitle,.variety-title,.variety-link{
+    left: 55px;
+}
+.variety-subtitle {
+    position: absolute;   
+    top: 62px;
+}
+.variety-title{
+    position: absolute;
+    top: 216px;
+}
+.variety-link {
+    position: absolute;
+    bottom: 51px;
+    color: $secondary-color;
+    transition: color 0.3s ease-in-out;
+    
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: $secondary-color;
+        transition: transform 0.3s ease-in-out;
+        transform: scaleX(1);
+        transform-origin: right;  
+        position: absolute;
+        bottom: -3px; 
+        left: 0;
+    }
+
+    &:hover {
+        color: $primary-color;
+        
+        &::after {
+            transform: scaleX(0);
+            transform-origin: left;
+        }
+    }
+}

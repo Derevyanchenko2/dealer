@@ -1,0 +1,31 @@
+.discount-title{
+    color: $secondary-color;    
+}
+.discount-text{
+    color: $secondary-color;
+    margin-bottom: 0;
+}
+.discount-box{
+    background-image: url('../images/home/sell-img/background-2.jpg');
+}
+.discount-form {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.discount-input {
+    padding: 20px 60px;
+    border: 1px solid #d6d6d6;
+    border-radius: 50px;
+    outline: none;
+    font-size: 14px;
+    // flex-grow: 1;
+    margin-right: 10px
+}
+.discount-button {
+    padding: 20px 60px;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+}

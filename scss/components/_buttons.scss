@@ -1,0 +1,22 @@
+.btn {
+    cursor: pointer;
+    transition: 0.3s all;
+    font-family: $font-family-primary;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    transition: color 0.3s ease-in-out;
+    &:hover {
+        transition: color 0.3s ease-in-out;
+    }
+}
+
+.white-btn {
+    background-color: $secondary-color;
+    color: #5e5e5e;
+    &:hover {
+        transition: 0.4s all;
+        color: $secondary-color;
+        background-color: $primary-color;
+    }
+}
